@@ -55,26 +55,18 @@ body{
     transition: 0.5s;
 }
 .container .slider .slide.slide1{
-    background: url(865184.jpg);
-    background-size:cover;
-    background-position: center;
+    background: url(865184.jpg) center 100%;
 }
 .container .slider .slide.slide2{
-    background: url(JPlCuOE.jpg);
-    background-size:cover;
-    background-position: center;
+    background: url(JPlCuOE.jpg) center;
 }
 .container .slider .slide.slide3{
-    background: url(paul-pastourmatzis-ysA6qL8j-OI-unsplash.jpg);
-    background-size:cover;
-    background-position: center;
+    background: url(paul-pastourmatzis-ysA6qL8j-OI-unsplash.jpg) center;
 }
 .container .slider .slide.slide4{
-    background: url(fabian-quintero-UWQP2mh5YJI-unsplash.jpg);
-    background-size:cover;
-    background-position: center;
+    background: url(fabian-quintero-UWQP2mh5YJI-unsplash.jpg) center;
 }
-@keyframes animate
+  @keyframes animate
 {
     0%{
         left: 0%;
